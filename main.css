@@ -1,0 +1,50 @@
+/*Styles here*/
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #ffffff;
+  }
+
+  p,
+  li {
+    font-family: 'PT Serif', serif;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  .container-wrapper{
+      width: 660px;
+  }
+  .styles-icon{
+      text-align:center;
+  }
+  .styles-icon img{
+      width: 5%;
+      margin-bottom: 50px;
+      margin-top: 50px;
+  }
+  .styles-search{
+      text-align: center;
+      position: relative;
+      /* width: 271px; */
+  }
+  .input{
+      width: -webkit-fill-available;
+  }
+  .input-icon{
+      color: #191919;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+
+  }
+  .recent-post{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      
+  }
+ 
