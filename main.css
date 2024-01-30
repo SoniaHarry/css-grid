@@ -16,17 +16,19 @@
   .container {
     display: grid;
     justify-items: center;
-    align-items: center;
     grid-template-rows: repeat(auto-fit, minmax(100px,1fr)) ;
     grid-template-columns: 1fr 1fr 1fr;
    
-    height: 100vh;
+  
   }
   .homepage-container{
     margin-top: 5em;
+    align-items: center;
+    height: 100vh;
   }
   .result-container{
     margin-top: 2em;
+    
   }
   .logo{
     grid-column: 2 ;
@@ -118,4 +120,7 @@
     text-decoration: none;
     color:#535353;
     font-size: 1.8rem;
+  }
+  .result-post-links-wrapper{
+    margin-top: 1.5rem;
   }
